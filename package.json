@@ -1,0 +1,30 @@
+{
+  "name": "pi-code-block-panel",
+  "version": "0.1.0",
+  "description": "Pi extension: render Markdown code blocks as a bordered panel with a language label and a theme-colored background.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "markdown",
+    "code-blocks",
+    "tui"
+  ],
+  "pi": {
+    "extensions": ["./extensions/code-block-panel.ts"]
+  },
+  "files": [
+    "LICENSE",
+    "extensions",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  }
+}
